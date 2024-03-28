@@ -3,6 +3,8 @@ import streamlit as st
 from vertexai.generative_models import FunctionDeclaration, GenerativeModel, Part, Tool
 import psycopg2
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 conn = psycopg2.connect(
