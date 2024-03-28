@@ -1,0 +1,8 @@
+/.env
+/.vscode
+/db.py
+/setup.sh
+/sql-talk.png
+/tutorial.md
+/venv
+/vertex-ai.png
