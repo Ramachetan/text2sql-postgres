@@ -54,7 +54,7 @@ get_table_func = FunctionDeclaration(
 
 sql_query_func = FunctionDeclaration(
     name="sql_query",
-    description="Get information from data in BigQuery using SQL queries",
+    description="Get information from data in Postgres using SQL queries",
     parameters={
         "type": "object",
         "properties": {
